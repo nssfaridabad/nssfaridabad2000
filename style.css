@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #333;
+    background-color: #f8f8f8;
 }
 
 header {
@@ -9,6 +11,12 @@ header {
     color: white;
     padding: 1em 0;
     text-align: center;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -26,11 +34,65 @@ nav ul li a {
     text-decoration: none;
 }
 
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.intro, .about, .events, .contact {
+    padding: 2em;
+    background-color: white;
+    margin: 1em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
 footer {
-    background-color: #f1f1f1;
+    background-color: #4CAF50;
+    color: white;
     text-align: center;
     padding: 1em 0;
-    position: fixed;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form input, form textarea {
     width: 100%;
-    bottom: 0;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
 }
