@@ -30,14 +30,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #d0a967;
     text-decoration: none;
 }
 
 .banner {
     position: relative;
     text-align: center;
-    color: white;
+    color: #d0a967;
 }
 
 .banner img {
